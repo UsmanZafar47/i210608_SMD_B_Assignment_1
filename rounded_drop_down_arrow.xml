@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffff" />
+            <corners android:radius="8dp" /> <!-- Adjust the radius for rounding corners -->
+        </shape>
+    </item>
+    <!-- Arrow -->
+    <item
+        android:drawable="@drawable/ic_arrow_drop_down"
+        android:gravity="end|center_vertical">
+        <!-- Adjust the gravity and size of the arrow icon -->
+    </item>
+</layer-list>

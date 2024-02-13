@@ -1,0 +1,32 @@
+<!-- online_profile_with_image_and_dot.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Green outline circle background -->
+
+    <!-- Image -->
+    <item android:drawable="@mipmap/ic_dp2_foreground"
+        />
+    <item>
+
+        <shape android:shape="oval">
+            <stroke
+                android:width="3dp"
+                android:color="#00FF00"/> <!-- Green color for outline -->
+        </shape>
+    </item>
+
+    <!-- Small circle at top right corner -->
+    <item
+        android:width="10dp"
+        android:height="10dp"
+        android:start="50dp">
+        <shape android:shape="oval">
+            <solid android:color="#00FF00"
+                />
+            <size android:width="6dp" android:height="6dp"/> <!-- Size of the dot -->
+        </shape>
+
+    </item>
+
+
+
+</layer-list>

@@ -1,0 +1,11 @@
+<!-- online_profile_with_image_and_dot.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Green outline circle background -->
+
+    <!-- Image -->
+    <item android:drawable="@mipmap/ic_dp2_round"
+        />
+
+
+
+</layer-list>
