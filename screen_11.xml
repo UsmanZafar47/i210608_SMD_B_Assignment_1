@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    android:gravity="top"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6.3"
+        android:background="@drawable/white_round"
+        android:layout_marginTop="-10dp"
+        android:backgroundTint="#67d7db"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/arrow_back"
+            android:scaleType="center"
+            android:padding="8dp"
+            android:onClick="onBackButtonClick"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:text="Hi,I'm "
+                android:textAlignment="viewStart"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="62dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/circle_drawable" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="John Cooper"
+            android:textAlignment="viewStart"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="#ddf1f4"
+            />
+
+
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="7dp"
+            android:text="Drop me a review"
+            android:textAlignment="viewStart"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:background="#ddf1f4"
+        android:orientation="vertical">
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginVertical="60dp"
+        android:text="Type Your experience....."
+        android:layout_marginHorizontal="20dp"
+        android:paddingBottom="105dp"
+        android:background="@drawable/rounded_review_box"
+        android:textColor="#5C5C5C"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+
+
+        />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="☆☆☆☆☆"
+            android:layout_marginLeft="128dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#3a7272"
+        />
+
+z
+        <Button
+
+            android:layout_width="330dp"
+            android:layout_height="55dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/verify_button"
+            android:text="Submit Feedback"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+

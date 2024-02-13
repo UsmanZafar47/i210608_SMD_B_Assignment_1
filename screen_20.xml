@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    android:gravity="top"
+
+    tools:context=".MainActivity">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="16"
+        android:background="#7f7f7f"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="20dp"
+            android:text="John Cooper"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            ></TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="20dp"
+                android:text="00:00:00"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                ></TextView>
+
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@mipmap/ic_dp2_foreground"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="30dp"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:background="#ddf1f4">
+
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#373737"
+            android:layout_marginVertical="5dp"
+            android:layout_marginStart="140dp"
+            android:text="       "/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:background="#ddf1f4">
+
+            <!-- Record Video Icon -->
+            <ImageView
+                android:id="@+id/mic_off_btn19"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/circle_overlay_mic_off"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"/>
+
+
+            <ImageView
+                android:id="@+id/turn_video19"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="92dp"
+                android:src="@drawable/ic_sound_circle" />
+
+
+            <ImageView
+                android:id="@+id/turn_camera_btn19"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="85dp"
+                android:src="@drawable/ic_pause"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+
+
+
+        <ImageButton
+            android:id="@+id/end_call_btn20"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/end_call_cross"
+            android:layout_marginStart="170dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+

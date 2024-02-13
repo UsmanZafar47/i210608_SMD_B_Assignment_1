@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    android:gravity="top"
+
+    tools:context=".MainActivity">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="16"
+        android:background="#7f7f7f"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="20dp"
+                android:text="00:00:00"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                ></TextView>
+
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#ffffff"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="390dp"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:background="#ddf1f4">
+
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#373737"
+            android:layout_marginVertical="5dp"
+            android:layout_marginStart="130dp"
+            android:text="       "></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#ddf1f4">
+
+            <!-- Record Video Icon -->
+            <ImageView
+                android:id="@+id/mic_off_btn19"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/circle_overlay_mic_off"
+                android:layout_marginStart="16dp"
+                android:layout_marginVertical="25dp"/>
+
+
+            <ImageView
+                android:id="@+id/turn_video19"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="60dp"
+                android:src="@drawable/ic_video"
+                android:layout_marginVertical="22dp"/>
+
+
+            <ImageView
+                android:id="@+id/turn_camera_btn19"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="60dp"
+                android:src="@drawable/circle_overlay_camera"
+                android:layout_marginVertical="25dp"/>
+
+
+            <ImageButton
+                android:id="@+id/end_call_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="25dp"
+                android:background="@drawable/end_call_cross"
+                android:layout_marginStart="60dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+

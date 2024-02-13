@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:weightSum="20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="2"
+        android:background="#ddf1f4"
+        android:gravity="left|center"
+        android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arrow_back"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="#3a7272"
+             />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="15dp"
+            android:text="My Profile"
+            android:textColor="#3a7272"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="15dp"
+            android:text="..."
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#3a7272"
+            />
+
+    </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:backgroundTint="#ddf1f4"
+            android:background="@drawable/rounded_corners">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- First Row -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="#8cccd8"> <!-- Change color as needed -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="#3ba7bc"> <!-- Change color as needed -->
+                </LinearLayout>
+
+                <!-- Second Row -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="#8cccd8"> <!-- Change color as needed -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="#3ba7bc"> <!-- Change color as needed -->
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- First Row -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="#3ba7bc"> <!-- Change color as needed -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="#8cccd8"> <!-- Change color as needed -->
+                </LinearLayout>
+
+                <!-- Second Row -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="#3ba7bc"> <!-- Change color as needed -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="#8cccd8"> <!-- Change color as needed -->
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Profile Icon -->
+            <ImageView
+                android:id="@+id/profile_icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                 android:layout_marginTop="60dp"
+                android:layout_marginStart="40dp"
+                android:src="@mipmap/ic_dp2_round" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ali"
+                android:textSize="18dp"
+                android:textColor="#3a7272"
+                android:textStyle="bold"
+                android:layout_marginTop="130dp"
+                android:layout_marginStart="65dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Islamabad"
+                android:textSize="14dp"
+                android:textColor="#727272"
+                android:layout_marginTop="150dp"
+                android:layout_marginStart="45dp"/>
+
+
+            <ImageButton
+                android:id="@+id/edit_btn21"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/edit_circle"
+                android:layout_marginTop="110dp"
+                android:layout_marginStart="90dp"
+           />
+
+
+            <ImageButton
+                android:id="@+id/edit2_btn21"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/edit_circle"
+                android:layout_marginTop="90dp"
+                android:layout_marginStart="350dp"
+                />
+
+
+            <Button
+                android:id="@+id/Booked_btn"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="145dp"
+                android:background="@drawable/rounded_review_box"
+                android:backgroundTint="#ffc800"
+                android:text="Booked Sessions"
+                android:textColor="#3a7272"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="#ddf1f4"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Favorite Mentors"
+            android:textColor="#3a7272"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:text="View All"
+            android:textColor="#3a7272"
+            android:textSize="14sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="#ddf1f4"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/fav_mem_btn21"
+            android:layout_width="150dp"
+            android:layout_height="138dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#a1a1a1">
+
+            <RelativeLayout
+                android:id="@+id/Box1"
+                android:layout_width="136dp"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="65dp"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="#ddf1f4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="John Cooper"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="8dp"
+                    android:text="$1500/session"
+                    android:textColor="#f1b61e"
+                    android:textSize="6sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="UX Designer @ Google"
+                    android:textColor="#000000"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="34dp"
+                    android:background="@drawable/online_ic" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/heart_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="32dp"
+                    android:text="Available"
+                    android:textColor="#00ff00"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="138dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#a1a1a1">
+
+            <RelativeLayout
+                android:id="@+id/Box2"
+                android:layout_width="136dp"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="65dp"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="#ddf1f4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="9dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Martina Watson"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="8dp"
+                    android:text="$500/session"
+                    android:textColor="#f1b61e"
+                    android:textSize="6sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Lead-Technology Officer"
+                    android:textColor="#000000"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="34dp"
+                    android:background="@drawable/online_ic"
+                    android:backgroundTint="#a1a1a1" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/heart_icon"
+                    android:backgroundTint="#a1a1a1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="32dp"
+                    android:text="Available"
+                    android:textColor="#a1a1a1"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="#ddf1f4"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="My Reviews"
+            android:textColor="#3a7272"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:text="View All"
+            android:textColor="#3a7272"
+            android:textSize="14sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+
+        android:background="#ddf1f4"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="138dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#00a78b">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="John Cooper"
+                android:textColor="#ddf1f4"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="40dp"
+                android:text="⭐️⭐️⭐️⭐️⭐️"
+                android:textColor="#ddf1f4"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:text="John provided excellent \nprototype techniques \nand insights."
+                android:textColor="#ddf1f4"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="138dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#00a78b">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Emma Phillips"
+                android:textColor="#ddf1f4"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="40dp"
+                android:text="⭐️⭐️⭐️⭐️☆"
+                android:textColor="#ddf1f4"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:text="Her tips were Valuable\nwould love to connect again."
+                android:textColor="#ddf1f4"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#ddf1f4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#127272"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- Home -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/home_btn21"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/ic_home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="22dp"
+                android:text="Home"
+                android:textColor="#373737"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <!-- Search -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/search_btnn21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/ic_search"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="19dp"
+                android:text="Search"
+                android:textColor="#373737"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/add_btn21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/circle_drawable"
+            android:text="+"
+            android:textAlignment="center"
+            android:textColor="#373737"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+
+        <!-- Chat -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/chat_btn21"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="25dp"
+                android:src="@drawable/ic_chat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="29dp"
+                android:text="Chat"
+                android:textColor="#373737"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <!-- Profile -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="14dp"
+                android:src="@drawable/ic_profile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="14dp"
+                android:text="Profile"
+                android:textColor="#ffffff"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
